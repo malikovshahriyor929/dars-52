@@ -1,0 +1,48 @@
+console.table()
+objectlarni table qilib  beradi 
+debugger kodni muayan nuqtada toxtadi va debugger oynasi chiqadi
+
+
+
+typeError 
+bir typega boshqa typedagi
+masalan number typega srting typeni ishlatish
+typeError chiqsa osha errorgacha bolgan js codelari ishlidi va undan keyin hechqaysi code ishlamidi 
+let a =2
+console.log(a.slice())
+
+
+
+referenceError
+ ozgaruvchidan berilgan agar console.log
+ ()dan keyin berilgan bo'lsa error chiqadi 
+referenceError chiqsa osha errorgacha bolgan js codelari ishlidi va undan keyin hechqaysi code ishlamidi 
+console.log(a)
+let a =2
+
+
+SyntaxError 
+code  xato yozilgan bolsa error chiqadi va hechqaysi code ishlamidi
+let a  22
+console.log(a)
+
+
+try and catch va finally
+ozidan keyingi codeni  chiqarmaydi error lar uchun try catch ishlatiladi va try ni ichiga code yoziladi  agar xato error bolmasa ishluradi agar muammo chiqsa catch ishlidi
+va finally berilsa error bolsa ham bo'lmasa ham ishluradi 
+
+ try {
+    console.log(a)
+    let a = 22
+} catch (error) {
+   console.log(error);
+} finally{
+    console.log("finish");
+}
+
+
+
+use strict
+code xato yoki eski yozilsa error chiqadi
+va use strict kodni to'g'ri va xatosiz yozishimizni tekshiradi va js code 1 chi qaturiga yoziladi
+function ichiga yozilsa faqat function ichida ishlidi

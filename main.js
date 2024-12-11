@@ -8,7 +8,7 @@
 //      number1 += num1[i]**2
 //   }
 //   for (let i = 0; i < num2.length; i++) {
-//     number2 += num2[i]**2
+//     number2 += num2[i]**3
 //  }
 //   console.log( number1 > number2 ? true:false)
 // }
@@ -33,5 +33,43 @@
 // console.log(Math.floor(score / students.length));
 
 // 6 masala
-// let arr = [34, 15, 88, 2]
+// let arr = [34, 15, 8, 2]
 // console.log(arr.sort((a,b)=> a -b)[0])
+
+// let num = [3,7]
+
+
+// let num1= num[0]
+// let num2= num[1]
+// console.log(Math.ceil((num2 - num1)/2)) 
+
+
+// let num = 28
+// for (let i = 0; i < num; i++) {
+   
+//     if ((num[i] /2) == num) {
+//          console.log(num)
+//     }
+//     console.log(num[i])
+// }
+
+
+
+
+// let num = [1,2,4,2,123,2,1,3,2]
+// count=" "
+// for (let i = 0; i < num.length; i++) {
+    
+//        num1 = (num[i])
+//         if (count.includes(num[i]) ) {
+//            console.log(num[i])
+//         }
+//         else{
+//             count+= " " +  (num[i]) 
+//         }
+//     }
+//     console.log(count);
+
+
+
+    
