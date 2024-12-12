@@ -5,7 +5,7 @@
 // let reg = /\A{1}\w?\Z{1}/g
 // let str = "AZ"
 // console.log(reg.test(str))
-// shuni ishlomadim
+
 
 // let mail = ["https://google.com"]
 // let mailtest = /\https+\:\/\//
